@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T07:15:47Z" name="Default suite" finished-at="2024-06-06T07:16:13Z" duration-ms="26336">
+  <suite started-at="2024-07-03T21:52:44Z" name="Default suite" finished-at="2024-07-03T21:53:00Z" duration-ms="16042">
     <groups>
     </groups>
-    <test started-at="2024-06-06T07:15:47Z" name="Default test" finished-at="2024-06-06T07:16:13Z" duration-ms="26336">
-      <class name="test.AddCustomerTest">
-        <test-method is-config="true" signature="readJson()[pri:0, instance:test.AddCustomerTest@38604b81]" started-at="2024-06-06T07:15:47Z" name="readJson" finished-at="2024-06-06T07:15:47Z" duration-ms="36" status="PASS">
+    <test started-at="2024-07-03T21:52:44Z" name="Default test" finished-at="2024-07-03T21:53:00Z" duration-ms="16042">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="readJson()[pri:0, instance:test.LoginTest@6c0d7c83]" started-at="2024-07-03T21:52:44Z" name="readJson" finished-at="2024-07-03T21:52:44Z" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readJson -->
-        <test-method signature="userShouldBeAbleToCreateNewCustomer()[pri:0, instance:test.AddCustomerTest@38604b81]" started-at="2024-06-06T07:15:47Z" name="userShouldBeAbleToCreateNewCustomer" finished-at="2024-06-06T07:16:13Z" duration-ms="26278" status="PASS">
+        <test-method signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@6c0d7c83]" started-at="2024-07-03T21:52:44Z" name="validUserShouldBeAbleToLogin" finished-at="2024-07-03T21:53:00Z" duration-ms="15993" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userShouldBeAbleToCreateNewCustomer -->
-      </class> <!-- test.AddCustomerTest -->
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+      </class> <!-- test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
